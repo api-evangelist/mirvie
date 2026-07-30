@@ -1,8 +1,31 @@
 aid: mirvie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirvie.png
 name: Mirvie
-description: Mirvie is a company surfaced as a portfolio company of general-catalyst, gv, mayfield and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Mirvie is a clinical-stage women's health company founded in 2018 and based in
+  South San Francisco, California, pioneering the early prediction of pregnancy
+  complications. Its proprietary RNA platform uses a simple maternal blood test
+  and machine learning to read tens of thousands of molecular messages from
+  mother, baby, and placenta, revealing the underlying biology of each pregnancy
+  months before symptoms appear. Mirvie's first product, the Encompass
+  preeclampsia test, pairs a novel blood test that predicts personalized
+  preeclampsia risk with a preventive care plan and received FDA Breakthrough
+  Device designation. The company is backed by General Catalyst, GV, Mayfield,
+  Khosla Ventures, Foresite Capital, and Decheng Capital. Mirvie operates
+  consumer and clinical web properties (mirvie.com and encompasstest.com) but
+  publishes no public developer API; this profile captures its identity and
+  domain-security posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/mirvie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +37,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Women's Health
+- Prenatal
+- Pregnancy
+- Diagnostics
+- Biotechnology
+- RNA
+- Preeclampsia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +56,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: mirvie.com
+  url: https://www.mirvie.com
+- type: Blog
+  url: https://www.mirvie.com/mirvie-media-releases
+- type: Support
+  url: https://www.mirvie.com/get-in-touch
+- type: PrivacyPolicy
+  url: https://www.mirvie.com/privacy-policy
+- type: TermsOfService
+  url: https://www.mirvie.com/terms-of-service
+- type: DomainSecurity
+  url: security/mirvie-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
