@@ -1,0 +1,26 @@
+# Front Door AI Index — mirvie — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mirvie
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.mirvie.com
+  final_host: www.mirvie.com
+  ownership: own
+  owner: mirvie
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 1.68
+  words: 596
+  tiers:
+    agentic: 0
+    core: 1
+    model: 0
+  ambiguous: 1
+  top_terms:
+    machine learning: 1
+    predictive: 1
